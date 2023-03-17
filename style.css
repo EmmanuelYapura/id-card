@@ -1,0 +1,39 @@
+body{
+    background-image: url('/fondo.png');
+}
+
+.container{
+    height: 100vh;
+}
+
+.foto-perfil{
+    max-width: 650px;
+    max-height: 440px;
+    min-width: 410px;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.card{
+    min-width: 410px;
+    max-width: 960px;
+}
+
+.card-title, .card-text{
+    font-family: Roboto;
+}
+
+.card-text{
+    color: hsl(0, 0%, 27%);
+    text-align: justify;
+}
+
+.icon-size{
+   font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .text-size{
+        font-size: 1.3em;
+    }
+}
